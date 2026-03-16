@@ -1,0 +1,11 @@
+# Python 
+__pycache__/ 
+*.pyc 
+venv/ 
+uploads/ 
+data/ 
+quiz.db 
+.env 
+.vscode/ 
+.idea/ 
+*.log 

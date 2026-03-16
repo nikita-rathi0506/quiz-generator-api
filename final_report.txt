@@ -1,0 +1,100 @@
+PE BLO QUIZ ENGINE - FINAL REPORT 
+================================= 
+ 
+SUMMARY: 
+-------- 
+Total Documents: 3 
+Total Quiz Questions: 5 
+ 
+ 
+DOCUMENTS UPLOADED: 
+------------------- 
+{
+    "documents": [
+        {
+            "id": "8291d916",
+            "filename": "peblo_pdf_grade3_science_plants_animals.pdf",
+            "grade": 3,
+            "subject": "science",
+            "upload_date": "2026-03-16 04:14:17",
+            "total_chunks": 2
+        },
+        {
+            "id": "af9fd584",
+            "filename": "peblo_pdf_grade4_english_grammar.pdf",
+            "grade": 4,
+            "subject": "english",
+            "upload_date": "2026-03-16 04:12:01",
+            "total_chunks": 2
+        },
+        {
+            "id": "ef27d5b7",
+            "filename": "peblo_pdf_grade1_math_numbers.pdf",
+            "grade": 1,
+            "subject": "math",
+            "upload_date": "2026-03-15 16:02:30",
+            "total_chunks": 2
+        }
+    ]
+}
+ 
+ 
+QUIZ QUESTIONS GENERATED: 
+------------------------ 
+{
+    "questions": [
+        {
+            "id": "dea05499",
+            "chunk_id": "c4c0900b",
+            "question_text": "The text discusses _____.",
+            "question_type": "FILL_BLANK",
+            "options": null,
+            "correct_answer": "Answer True 7.",
+            "difficulty": "medium",
+            "created_at": "2026-03-16 04:14:02"
+        },
+        {
+            "id": "78477a5d",
+            "chunk_id": "4db230c5",
+            "question_text": "The text discusses _____.",
+            "question_type": "FILL_BLANK",
+            "options": null,
+            "correct_answer": "Page 1 Peblo",
+            "difficulty": "medium",
+            "created_at": "2026-03-16 04:16:50"
+        },
+        {
+            "id": "4332e444",
+            "chunk_id": "1dd46156",
+            "question_text": "The text discusses _____.",
+            "question_type": "FILL_BLANK",
+            "options": null,
+            "correct_answer": "Page 1 Peblo",
+            "difficulty": "medium",
+            "created_at": "2026-03-16 04:16:55"
+        },
+        {
+            "id": "8ee9d03c",
+            "chunk_id": "1dd46156",
+            "question_text": "The text discusses _____.",
+            "question_type": "FILL_BLANK",
+            "options": null,
+            "correct_answer": "Page 1 Peblo",
+            "difficulty": "medium",
+            "created_at": "2026-03-15 16:03:31"
+        },
+        {
+            "id": "656e4045",
+            "chunk_id": "36036113",
+            "question_text": "The text discusses _____.",
+            "question_type": "FILL_BLANK",
+            "options": null,
+            "correct_answer": "Page 1 Peblo",
+            "difficulty": "medium",
+            "created_at": "2026-03-16 04:17:00"
+        }
+    ],
+    "student_id": null,
+    "current_difficulty": "medium",
+    "count": 5
+}
