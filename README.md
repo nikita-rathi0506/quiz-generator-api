@@ -67,8 +67,10 @@ Open `http://localhost:8000/docs` in your browser
 
  📁 Project Structure`
 
+## Project Structure
+
+```
 quiz-generator-api/
-│
 ├── app/
 │   ├── __init__.py
 │   ├── main.py
@@ -93,12 +95,10 @@ quiz-generator-api/
 │       ├── llm_service.py
 │       ├── pdf_parser.py
 │       └── quiz_service.py
-│
 ├── requirements.txt
 ├── .env.example
 └── README.md
 ```
-
 📌 API Endpoints
 
 | Method | Endpoint | Description |
