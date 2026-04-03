@@ -61,27 +61,43 @@ uvicorn main:app --reload
 ```
  6. Access API docs
 Open `http://localhost:8000/docs` in your browser
----
+
 
 
 
  📁 Project Structure`
-quiz-generator-api/
-├── main.py              # FastAPI entry point
-├── models.py            # Database models
-├── schemas.py           # Pydantic schemas
-├── services/
-│   ├── llm_service.py   # OpenAI integration
-│   ├── pdf_parser.py    # PDF extraction
-│   └── quiz_service.py  # Quiz generation logic
-├── routes/
-│   ├── quiz.py          # Quiz endpoints
-│   └── user.py          # User endpoints
-├── database.py          # Database connection
-├── requirements.txt     # Dependencies
-├── .env.example         # Environment template
-└── README.md            # This file
 
+quiz-generator-api/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── quiz.py
+│   │   └── user.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── database.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── quiz.py
+│   │   └── user.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── quiz.py
+│   │   └── user.py
+│   └── services/
+│       ├── __init__.py
+│       ├── llm_service.py
+│       ├── pdf_parser.py
+│       └── quiz_service.py
+│
+├── requirements.txt
+├── .env.example
+└── README.md
+```
 
 📌 API Endpoints
 
