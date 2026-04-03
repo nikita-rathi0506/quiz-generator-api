@@ -81,9 +81,7 @@ quiz-generator-api/
 ├── requirements.txt     # Dependencies
 ├── .env.example         # Environment template
 └── README.md            # This file
-```
 
----
 
 📌 API Endpoints
 
@@ -96,8 +94,6 @@ quiz-generator-api/
 | POST | `/auth/register` | Create new user |
 | POST | `/auth/login` | Get access token |
 
----
-
 🤝 Contributing
 
 We welcome contributions!
@@ -108,8 +104,6 @@ We welcome contributions!
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
----
-
  🎯 Future Enhancements
 
 - Support for DOCX and PPT files
@@ -118,35 +112,23 @@ We welcome contributions!
 - Frontend dashboard for quiz creators
 - Export quizzes to PDF/CSV
 
----
-
  👥 Author
 
-**Nikita Rathee**
+Nikita Rathee
 
 - Email: rathinikki36@gmail.com
 - GitHub: [github.com/nikita-rathee](https://github.com/nikita-rathee)
 - LinkedIn: [linkedin.com/in/nikita-rathee](https://linkedin.com/in/nikita-rathee)
-- 
 
-## 🏆 Awards & Recognition
-
-- **Winner** - ConceptX College Hackathon 2025 (NeuroSafe project)
-- **100+ DSA problems** solved on LeetCode
-- **Python Certified** - Infosys
-
----
-
-## ⭐ Show Your Support
+⭐ Show Your Support
 
 If you find this project helpful, please give it a star on GitHub!
 
----
 
-## 📄 License
+
+📄 License
 
 This project is licensed under the MIT License.
 
----
 
-**Built with ❤️ for smarter learning**
+Built with ❤️ for smarter learning
